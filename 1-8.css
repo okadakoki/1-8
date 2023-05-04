@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+main{
+  width:960px;
+  margin:50px auto;
+}
+
+.List{
+    margin-bottom:50px;
+}
+.List-text:nth-child(odd){
+    background-color:#dddddd;
+}
+.List-text{
+    padding:20px;
+    list-style:none;
+}
+
+.visual{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.visual-block {
+  background-color: #ffd700;
+  width:30%;
+  height:200px;
+  margin-right:5%;
+  margin-bottom:40px;
+}
+
+.visual-block:nth-child(1),
+.visual-block:nth-child(5),
+.visual-block:nth-child(9){
+background-color:orange;
+}
+
+.visual-block:nth-child(3n){
+  margin-right: 0;
+}
+
+.visual-block:nth-child(7),
+.visual-block:nth-child(8),
+.visual-block:nth-child(9){
+  margin-bottom: 0;
+}
